@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "M PLUS 1p", sans-serif;
 }
 
 body {
@@ -102,5 +103,10 @@ main p{
     pointer-events: none;
     width: 30px;
     height: 30px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(225, 156, 96, 0.5);
+    position: fixed;
+    top: -16px;
+    left: -16px;
+    border-radius: 50%;
+    transition: 0.15s
 }
